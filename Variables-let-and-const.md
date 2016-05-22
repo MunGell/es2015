@@ -1,8 +1,4 @@
-
-### Chapter 2
-####   **let** and **const** keywords
-
-
+### Variables **let** and **const**
 
 Up until ES6 the keyword `var` indicates variables that are always function scoped. It doesn't matter where you define your variable -- the variable is available anywhere within the function.
 
@@ -26,7 +22,6 @@ if (someCondition == true) {
 alert(password); //Uncaught ReferenceError: password is not defined(…)
 ```
 
-
 In addition to `let`, ES6 also introduces the `const` keyword. It is also block scoped, but if we attempt to change its value after initialization, we get an error.
 
 ```javascript
@@ -39,6 +34,4 @@ if (someCondition == true) {
 alert(password); //Uncaught ReferenceError: password is not defined(…)
 ```
 
-
-
-Reference: http://learnharmony.org/#lessons/block-scope-let 
+Reference: http://learnharmony.org/#lessons/block-scope-let

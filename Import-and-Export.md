@@ -1,5 +1,4 @@
-### Chapter 1
-####   ES6 Modules
+### ES6 Modules
 
 One of the features that ES6 is going to introduce is the native support to modules, which can be managed through the `import` and `export` keywords.
 
@@ -21,6 +20,7 @@ import { square, diag } from 'lib';
 console.log(square(11)); // 121
 console.log(diag(4, 3)); // 5
 ```
+
 If you want to, you can also **import the whole module** and refer to its named exports via property notation:
 
 ```javascript
@@ -29,7 +29,6 @@ import * as lib from 'lib';
 console.log(lib.square(11)); // 121
 console.log(lib.diag(4, 3)); // 5
 ```
-
 
 Sometimes you just want to export a single object from a module: it doesn't have to be necessarily labeled.
 
@@ -45,5 +44,6 @@ myFunc();
 ```
 
 References:
-http://www.2ality.com/2014/09/es6-modules-final.html
-https://developer.mozilla.org/en/docs/web/javascript/reference/statements/import
+
+- http://www.2ality.com/2014/09/es6-modules-final.html
+- https://developer.mozilla.org/en/docs/web/javascript/reference/statements/import
