@@ -6,7 +6,7 @@ Introduction to ES2015
 
 1. (Riccardo) [Import/Export keywords](Import-and-Export)
 2. (Riccardo) [Variables `let` and `const`](Variables-let-and-const)
-3. (Riccardo) Default parameters (super quick)
+3. (Riccardo) [Default parameters](Default-Parameters)
 4. (Riccardo) Property shorthand  {a} (same as {a: a}
 5. (Riccardo) Destructuring assignment
 6. (Shamo) [Classes](Classes)
