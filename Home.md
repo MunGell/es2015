@@ -10,6 +10,6 @@ Introduction to ES2015
 4. (Riccardo) [Property shorthand](Property-Shorthand)
 5. (Riccardo) [Destructuring Assignment](Restructuring-Assignment)
 6. (Shamo) [Classes](Classes)
-7. (Shamo) Arrow function
-8. (Shamo) Template strings
-9. (Shamo) Object spread ...props
+7. (Shamo) [Arrow functions](Arrow-Functions)
+8. (Shamo) [Template strings](Template-Strings)
+9. (Shamo) [Spread operator](Spread-Operator)

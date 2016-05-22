@@ -4,6 +4,6 @@
 - [Property shorthand](Property-Shorthand)
 - [Restructuring Assignment](Destructuring-Assignment)
 - [Classes](Classes)
-- Arrow function
-- Template strings
-- Object spread ...props
+- [Arrow functions](Arrow-Functions)
+- [Template strings](Template-Strings)
+- [Spread operator](Spread-Operator)
