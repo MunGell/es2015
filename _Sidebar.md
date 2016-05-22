@@ -1,4 +1,4 @@
-# Course Content
+### Course Content
 
 - [Import/Export keywords](Import-and-Export)
 - [Variables `let` and `const`](Variables-let-and-const)
