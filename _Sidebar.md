@@ -2,7 +2,7 @@
 - [Variables `let` and `const`](Variables-let-and-const)
 - [Default parameters](Default-Parameters)
 - [Property shorthand](Property-Shorthand)
-- [Restructuring Assignment](Restructuring-Assignment)
+- [Restructuring Assignment](Destructuring-Assignment)
 - [Classes](Classes)
 - Arrow function
 - Template strings
