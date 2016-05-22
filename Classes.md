@@ -93,3 +93,36 @@ class Utils {
 ```
 
 #### Inheritance
+
+Classes could be extended and methods in them could be overridden:
+
+```javascript
+class Collection {
+	constructor(title) {
+		this.title = title;
+	}
+}
+
+class SelectionCollection extends Collection {
+	constructor(selectionId) {
+		this.selectionId = selectionId;
+	}
+}
+```
+
+It is also possible to execute logic of overridden method using `super` keyword:
+
+```javascript
+class SelectionCollection extends Collection {
+	capitalize(title) {
+		super.capitalize(title);
+		// ...
+	}
+}
+```
+
+Multiple inheritance is possible through [mixins](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Mix-ins)
+
+### References
+
+- [MDN: Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
