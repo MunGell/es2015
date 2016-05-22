@@ -37,3 +37,59 @@ var Location = class {
 
 The main difference between these two ways of defining classes is that the later one will be hoisted. This means it does not matter where you define it in the code, JavaScript engine will move it to the top of the scope while compiling.
 In comparison, class declarations must be defined before accessing them, otherwise it will lead to a `ReferenceError`.
+
+#### Methods
+
+ES5:
+
+```javascript
+var className = {
+	getStatus: function() {
+		return this.status;
+	},
+
+	setStatus: function(status) {
+		this.status = status;
+	}
+}
+```
+
+ES2015:
+
+```javascript
+class className {
+	getStatus() {
+		return this.status;
+	},
+	setStatus(status) {
+		this.status = status;
+	}
+}
+```
+
+There is also special method name `constructor`.
+
+It is also possible to write this with getters and setters:
+
+```javascript
+class className {
+	get status() {
+		return this.status;
+	},
+	set status(status) {
+		this.status = status;
+	}
+}
+```
+
+In the same way it is possible to define `static` method that are available without instantiating the class, but will not be available from an instance of the class:
+
+```javascript
+class Utils {
+	static formatDateTime(dateTime) {
+		// ...
+	}
+}
+```
+
+#### Inheritance
