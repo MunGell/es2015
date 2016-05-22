@@ -1,6 +1,4 @@
-# es2015
-
-Introduction to ES2015
+This repository contains materials for introductory training on new features of JavaScript introduced in ES2015 (ES6) standard.
 
 ## Plan
 
