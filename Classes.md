@@ -126,3 +126,4 @@ Multiple inheritance is possible through [mixins](https://developer.mozilla.org/
 ### References
 
 - [MDN: Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+- [How to Use Classes and Sleep at Night](https://medium.com/@dan_abramov/how-to-use-classes-and-sleep-at-night-9af8de78ccb4#.3a4zjwpaz)
