@@ -10,4 +10,4 @@ This repository contains materials for introductory training on new features of 
 6. (Shamo) [Classes](Classes)
 7. (Shamo) [Arrow functions](Arrow-Functions)
 8. (Shamo) [Template strings](Template-Strings)
-9. (Shamo) [Spread operator](Spread-Operator)
+9. (Shamo) [Spread operator](Spread-Operator-and-Rest-Parameters)
