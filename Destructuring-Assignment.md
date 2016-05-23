@@ -35,4 +35,6 @@ console.log(remaining);
 
 In the last example, keep in mind that the `...` operator has to be the last one in the array for this syntax to work.
 
-Reference: http://learnharmony.org/#lessons/destructuring
+### References
+
+- [Destructuring](http://learnharmony.org/#lessons/destructuring)
