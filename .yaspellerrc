@@ -1,0 +1,19 @@
+{
+  "lang": "en",
+  "format": "auto",
+  "fileExtensions": [".md"],
+  "excludeFiles": [
+    ".*",
+    "node_modules"
+  ],
+  "ignoreCapitalization": true,
+  "ignoreUrls": true,
+  "dictionary": [
+      "ES6",
+      "ES2015",
+      "destructuring",
+      "destructure",
+      "Riccardo",
+      "Shamo"
+  ]
+}
