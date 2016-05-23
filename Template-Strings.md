@@ -49,7 +49,7 @@ var template = `<div class="hero-title">${heroTitle}</div>`;
 
 Tagged template string is an advanced version of template string that is pre-processed by custom-written function.
 
-Example based on MDN code:
+Example:
 
 ```javascript
 var a = 5;
