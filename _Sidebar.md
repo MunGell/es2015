@@ -8,4 +8,4 @@
 - [Classes](Classes)
 - [Arrow functions](Arrow-Functions)
 - [Template strings](Template-Strings)
-- [Spread operator](Spread-Operator)
+- [Spread operator](Spread-Operator-and-Rest-Parameters)
