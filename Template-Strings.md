@@ -47,7 +47,37 @@ var template = `<div class="hero-title">${heroTitle}</div>`;
 
 #### Tagged template strings
 
+Tagged template string is an advanced version of template string that is pre-processed by custom-written function.
 
+Example based on MDN code:
+
+```javascript
+var a = 5;
+var b = 10;
+
+function sometag(strings, ...values) {
+  // Where:
+  // strings[0] = "Hello "
+  // strings[1] = " world "
+  // strings[2] = ""
+  // values[0]  = 15
+  // values[1]  = 50
+
+  var output = '';
+
+  for(var i = 0; i < values.length; i++) {
+    output += strings[i] + values[i];
+  }
+
+  output += strings[i];
+
+  return output;
+}
+
+tag`Hello ${ a + b } world ${ a * b }`;
+```
+
+Note that `values.length` is always one item shorter than `strings.length`.
 
 ### References
 
