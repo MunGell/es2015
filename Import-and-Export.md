@@ -31,7 +31,6 @@ console.log(lib.diag(4, 3)); // 5
 ```
 
 Sometimes you just want to export a single object from a module: it doesn't have to be necessarily labeled.
-
 You can leverage **default exports** (maximum one per file) in the following way.
 
 ```javascript
@@ -43,7 +42,7 @@ import myFunc from 'myFunc';
 myFunc();
 ```
 
-References:
+### References
 
-- http://www.2ality.com/2014/09/es6-modules-final.html
-- https://developer.mozilla.org/en/docs/web/javascript/reference/statements/import
+- [ECMAScript 6 modules: the final syntax](http://www.2ality.com/2014/09/es6-modules-final.html)
+- [MDN: Import](https://developer.mozilla.org/en/docs/web/javascript/reference/statements/import)
