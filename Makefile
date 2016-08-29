@@ -17,4 +17,7 @@ commit:
 setup:
 	@git remote add wiki https://github.com/MunGell/es2015.wiki.git
 
-.PHONY: help sync commit setup
+publish:
+	git subtree push --prefix presentation origin gh-pages
+
+.PHONY: help sync commit setup publish
