@@ -74,7 +74,7 @@ function sometag(strings, ...values) {
   return output;
 }
 
-tag`Hello ${ a + b } world ${ a * b }`;
+sometag`Hello ${ a + b } world ${ a * b }`;
 ```
 
 Note that `values.length` is always one item shorter than `strings.length`.
